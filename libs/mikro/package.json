@@ -1,0 +1,17 @@
+{
+  "name": "@libs/mikro",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mikro-orm/core": "6.0.0-dev.15",
+    "pluralize": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/pluralize": "^0.0.29"
+  }
+}

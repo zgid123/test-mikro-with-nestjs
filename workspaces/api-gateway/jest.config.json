@@ -1,0 +1,26 @@
+{
+  "moduleNameMapper": {
+    "^db(.*)$": "<rootDir>/db$1",
+    "^tests(.*)$": "<rootDir>/tests$1",
+    "^commons(.*)$": "<rootDir>/commons$1",
+    "^app.module$": "<rootDir>/app.module",
+    "^__tests__(.*)$": "<rootDir>/__tests__$1",
+    "^app.controller$": "<rootDir>/app.controller",
+    "^mikro-orm.config$": "<rootDir>/mikro-orm.config"
+  },
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": "src",
+  "testRegex": ".*\\.spec\\.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "collectCoverageFrom": [
+    "**/*.(t|j)s"
+  ],
+  "coverageDirectory": "../coverage",
+  "testEnvironment": "node"
+}

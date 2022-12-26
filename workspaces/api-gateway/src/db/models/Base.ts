@@ -1,4 +1,4 @@
-import { Entity, PrimaryKey, Property } from '@mikro-orm/core';
+import { Entity, PrimaryKey, Property } from '@libs/mikro';
 
 @Entity({ abstract: true })
 export abstract class Base {

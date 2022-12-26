@@ -1,0 +1,35 @@
+{
+  "name": "@libs/testing",
+  "version": "0.0.1",
+  "license": "MIT",
+  "exports": {
+    "./utils": "./lib/utils.js",
+    "./mikro": "./lib/mikro/index.js",
+    "./module": "./lib/module/index.js"
+  },
+  "typesVersions": {
+    "*": {
+      "utils": [
+        "./lib/utils.d.ts"
+      ],
+      "mikro": [
+        "./lib/mikro/index.d.ts"
+      ],
+      "module": [
+        "./lib/module/index.d.ts"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^9.2.1",
+    "@nestjs/core": "^9.2.1",
+    "@nestjs/testing": "^9.2.1"
+  },
+  "dependencies": {
+    "@libs/mikro": "workspace:^0.0.1",
+    "@mikro-orm/nestjs": "^5.1.5"
+  }
+}

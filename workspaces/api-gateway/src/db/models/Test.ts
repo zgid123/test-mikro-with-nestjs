@@ -1,4 +1,4 @@
-import { Entity } from '@mikro-orm/core';
+import { Entity } from '@libs/mikro';
 
 import { Base } from './Base';
 
