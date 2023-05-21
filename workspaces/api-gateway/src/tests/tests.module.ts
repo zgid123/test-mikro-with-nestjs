@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { MikroOrmModule } from '@mikro-orm/nestjs';
 
-import { Test } from 'src/db/models/Test';
-import { TestsController } from 'src/tests/tests.controller';
+import { Test } from '../db/models/Test';
+import { TestsController } from '../tests/tests.controller';
 
 @Module({
   imports: [MikroOrmModule.forFeature([Test])],

@@ -8,7 +8,7 @@ export function create<T extends object>(
   const repo = orm.em.getRepository<T>(entityClass);
   const record = repo.create(params);
 
-  repo.persist(record);
+  repo.getEntityManager().persist(record);
 
   return record;
 }

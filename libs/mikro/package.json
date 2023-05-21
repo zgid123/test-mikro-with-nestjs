@@ -8,7 +8,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@mikro-orm/core": "6.0.0-dev.15",
+    "@mikro-orm/core": "6.0.0-dev.75",
     "pluralize": "^8.0.0"
   },
   "devDependencies": {
